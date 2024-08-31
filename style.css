@@ -14,6 +14,20 @@ label {
     letter-spacing: 4px;
 }
 
+#Section_0{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    background: rgba(210, 210, 210, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+}
+
+
 #Section_1 {
     width: 400px;
     padding: 40px;
