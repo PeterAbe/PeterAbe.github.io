@@ -16,6 +16,9 @@ label {
 
 #Section_0{
     position: absolute;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
     top: 5%;
     left: 50%;
     width: 100%;
@@ -27,6 +30,27 @@ label {
     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
 }
 
+#Section_0 a {
+    display: inline-block;
+    padding: 1rem; /* Adjust padding for better spacing */
+    color: black;
+    font-size: 1rem; /* Use relative font size */
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 0.5rem; /* Adjust margin for better spacing between links */
+    letter-spacing: 0.25rem; /* Adjust letter-spacing */
+}
+
+#Section_0 a:hover {
+    background: rgb(192, 160, 128);
+    color: white;
+    border-radius: 0px;
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 100px white;
+}
 
 #Section_1 {
     width: 400px;
