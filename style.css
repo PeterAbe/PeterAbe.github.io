@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,3 +9,16 @@ label{
     letter-spacing: 4px;
 }
 
+#Section_1 {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(62,147,161,0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.6);
+    border-radius: 10px;
+}
