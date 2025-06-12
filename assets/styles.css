@@ -3,7 +3,6 @@ body {
   margin: 0;
   padding: 0;
   background: black;
-  /*color: #212529*/
 }
 
 header {
@@ -32,9 +31,11 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
 section h3 {
   color: white;
 }
+
 section h2 {
   margin-top: 1.5rem;
   color: white;
@@ -46,4 +47,16 @@ section p {
 
 a {
   color: green;
+}
+
+#cursor {
+  font-weight: bold;
+  color: white;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
 }
